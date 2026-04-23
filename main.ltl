@@ -1,0 +1,15 @@
+// ltl-random-forest/main.ltl
+//
+// Random-forest classifier with out-of-bag scoring.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-random-forest v0.1.0")
+    io::println("Random-forest classifier with out-of-bag scoring.")
+    0
+}
